@@ -48,7 +48,7 @@ function App() {
           <input type='text' value={nombre} onChange={onChangeNombre}></input>
           <label htmlFor=''>Digimon</label>
           <input type='text' value={digimon} onChange={onChangeDigimon}></input>
-          <button type='sumbit'>Enviar</button>
+          <button type='submit'>Enviar</button>
         </form>
         {mensaje && (
           <p style={{ color: 'red' }}>
